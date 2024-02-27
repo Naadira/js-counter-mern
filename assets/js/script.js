@@ -1,7 +1,14 @@
+let counter = 0;
+
 const incrementFunction = () => {
-    console.log(`increment logged!`)
+    counter++;
+    document.getElementById('counter-number').textContent = counter;
 }
+    console.log(`increment logged!`)
+
 
 const decrementFunction = () => {
-    console.log(`decrement logged!`)
+    counter--;
+    document.getElementById('counter-number').textContent = counter;
 }
+    console.log(`decrement logged!`)
